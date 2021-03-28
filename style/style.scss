@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: url(../image/002.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.page-title {
+
+  font-family: 'Lucida Handwriting';
+  color: #73ffd0;
+}
+
+.song-suggestion {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.margin-t {
+  margin-top: 120px;
+}
+
+a:link {
+  color: #ecff95;
+  background-color: rgba(49, 49, 49, 0.7);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Brush Script Std';
+}
+
+a:link:hover {
+  color: #73ffd0;
+  text-decoration: none;
+
+}
+
+.button {
+  font-family: 'Hammersmith One', sans-serif;
+  border-radius: 8px;
+  background-color: #ecff95;
+  border: none;
+  color: #b41515;
+  text-align: center;
+  font-size: 150%;
+  padding: 5px;
+  width: 200px;
+  height: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+
+}
+
+.button:hover {
+  background-color: #b41515;
+  color: #ecff95;
+}
+
+.text-color p {
+  color: #fff;
+}
